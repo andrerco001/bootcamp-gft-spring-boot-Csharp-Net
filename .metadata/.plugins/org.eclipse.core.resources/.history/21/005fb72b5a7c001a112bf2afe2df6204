@@ -1,0 +1,26 @@
+package one.innovation.digital.datas;
+
+import java.time.LocalDateTime;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
+
+public class ExercicioFinalDatas {
+
+	public static void main(String[] args) {
+
+		// Exercicio Final
+		LocalDateTime agoraEf = LocalDateTime.of(2010, 05, 15, 10, 00, 00);
+		DateTimeFormatter formatar = DateTimeFormatter.ofPattern("dd/MM/yyy HH:mm:ss");
+		LocalDateTime tempoFormatado = agoraEf;
+				
+				
+				.format(agoraEf);
+		LocalDateTime futuro = tempoFormatado.plusYears(4).plusMonths(6).plusHours(13);
+		System.out.println(futuro);
+		System.out.println("------------------------");
+		
+		
+
+	}
+
+}

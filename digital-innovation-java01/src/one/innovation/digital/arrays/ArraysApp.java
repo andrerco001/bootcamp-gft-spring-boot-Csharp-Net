@@ -1,0 +1,29 @@
+package one.innovation.digital.arrays;
+
+public class ArraysApp {
+
+	public static void main(String[] args) {
+
+		int[] arrays = new int[5];
+		arrays[0] = 1;
+		arrays[1] = 5;
+		arrays[2] = 3;
+
+		for (int i : arrays) {
+			if (i != 0) {
+				System.out.print(i + " ");
+			}
+		}
+
+		arrays[3] = 10;
+		arrays[4] = 8;
+		System.out.println();
+		for (int i : arrays) {
+			if (i != 0) {
+				System.out.print(i + " ");
+			}
+		}
+
+	}
+
+}

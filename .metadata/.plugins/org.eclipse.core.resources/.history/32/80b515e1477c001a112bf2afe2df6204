@@ -1,0 +1,26 @@
+package one.innovation.digital.datas;
+
+import java.time.LocalDate;
+
+public class Exemplo10 {
+
+	public static void main(String[] args) {
+		
+		// LocalDate - trabalha exclusivamente com Data
+		// LocalTime - trabalha com horario
+		// LocalDateTime - trabalha com data e horario
+		
+		LocalDate hoje = LocalDate.now();
+		System.out.println(hoje);
+		
+		LocalDate ontem =;
+		
+		
+		
+	
+		
+		
+
+	}
+
+}

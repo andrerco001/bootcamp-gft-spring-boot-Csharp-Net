@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\ARCO\Desktop\work_space\digital-innovation\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3187696637.index
+4001634541.index
+235886265.index
+2061510709.index
+896427274.index
+710584910.index

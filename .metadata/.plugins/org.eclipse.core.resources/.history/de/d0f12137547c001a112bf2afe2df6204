@@ -1,0 +1,21 @@
+package one.innovation.digital.datas;
+
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class ExercicioFinalDatas {
+
+	public static void main(String[] args) {
+
+		// Exercicio Final
+		LocalDateTime agoraEf = LocalDateTime();
+		DateTimeFormatter format = DateTimeFormatter.ofPattern("dd/MM/yyy HH:mm:ss");
+		String dataFormatada = format.format(agoraEf);
+		System.out.println(dataFormatada);
+		System.out.println("------------------------");
+		
+
+	}
+
+}
